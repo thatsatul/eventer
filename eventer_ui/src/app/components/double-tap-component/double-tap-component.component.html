@@ -1,0 +1,12 @@
+<p>
+  <ion-item [hidden]="editActive">
+    <ion-label (dblclick)="doubleTap()">{{value}}</ion-label>
+  </ion-item>
+  <ion-item [hidden]="!editActive">
+    <ion-input placeholder="Enter Input" [attr.autofocus]="editActive" [(ngModel)]="valueCopy" #myInput></ion-input>
+    <div>
+      <ion-button (click)="save()">Save</ion-button>
+      <ion-button (click)="cancel()">Cancel</ion-button>
+    </div>
+  </ion-item>
+</p>

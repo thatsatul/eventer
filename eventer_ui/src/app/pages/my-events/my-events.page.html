@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      My Events
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar (ionInput)="getEvents($event)"></ion-searchbar>
+  <ion-list>
+    <ion-item *ngFor="let item of [1,2,3,4]">
+      <ion-card>
+        <ion-card-header>
+          Card Header
+        </ion-card-header>
+        <ion-card-content>
+          <!-- Add card content here! -->
+          {{item}}
+          <ion-button expand="full" fill="outline" (click)="goToEventPage(item)">Outline + Full</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+</ion-content>

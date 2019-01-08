@@ -1,0 +1,31 @@
+You have not accepted the license agreements of the following SDK components:
+[cordova]    [Android SDK Platform 27].
+
+/Users/aanand/Library/Android/sdk/tools/bin/sdkmanager --licenses
+
+******************************
+
+Requirements check failed for JDK 1.8
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home
+
+******************************
+ANDROID_HOME=/Users/aanand/Downloads/android-sdk-macosx
+
+export ANDROID_HOME=/Users/aanand/Library/Android/sdk
+
+******************************
+
+This AVD's configuration is missing a kernel file!!
+
+echo ANDROID_SDK_ROOT=/Users/aanand/Library/Android/sdk
+
+Run AVD manager from Android studio : Mobile shaped icon on right side
+
+******************************
+
+Failed to connect http to localhost :
+
+Make http call using : 192.168.0.101 and not localhost while using emulator
+
+******************************

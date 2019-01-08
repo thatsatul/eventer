@@ -1,0 +1,15 @@
+Feature to add description like plans and timings, inventories, responsiblities, etc.
+Feature to add location and on click of that show navigation on google map.
+Feature to provide chat system for each event.
+Feature to add important files / images for any event.
+Feature to add money management.
+Feature to provide gallery option for any event and access to all users added.
+Feature to count attendees and absentees.
+Functionality to import individual or group? (We will give user and group management)
+Functionality to exclude certain users while importing existing group in an event.
+How to easify creating a recurring event? Give them functionality to copy any event just by clicking with only date and time change?
+How to design event so that event description, conversation, suggestions, attendees are easily visible? And user can navigate among these in minimum no. of clicks?
+What are the parts in event that should be accessible / editable to admin and attendees and how?
+What if user wants to add something just for tracking expenses?
+Attendees can do +1 or +2 or should we avoid this as it would create lot of confusion. Like in maintaining balances.
+How users are going to settle up balances between 2 users? Are we going to update all the events accordingly between 2 users if its settled?

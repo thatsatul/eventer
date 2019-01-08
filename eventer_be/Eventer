@@ -1,0 +1,10 @@
+Functionality to import individual or group? (We will give user and group management)
+Functionality to exclude certain users while importing existing group in an event.
+How to easify creating a recurring event? Give them functionality to copy any event just by clicking with only date and time change?
+How to design event so that event description, conversation, suggestions, attendees are easily visible? And user can navigate among these in minimum no. of clicks?
+What are the parts in event that should be accessible / editable to admin and attendees and how?
+What if user wants to add something just for tracking expenses?
+Attendees can do +1 or +2 or should we avoid this as it would create lot of confusion. Like in maintaining balances.
+How users are going to settle up balances between 2 users? Are we going to update all the events accordingly between 2 users if its settled?
+Should we allow event creator to modify past events?
+Functionality for attendees to add their own expense individually which helps in comparing how much they need to pay extra or should receive from the primary payor?
